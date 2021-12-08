@@ -471,11 +471,17 @@
 						</div>
 
 
-						<img class="seafood__item-img" srcset="images/content-1-w390.jpg 390w,
+<!-- 						<img class="seafood__item-img" srcset="images/content-1-w390.jpg 390w,
 						             images/content-1-w600.jpg 600w"
-						      sizes="(max-width: 1000px) 390px,
+						      sizes="(max-width: 490px) 390px,
 						      600px"
-						  src="images/content-1-w600.jpg" alt="Стол с морепродуктами">
+						  src="images/content-1-w600.jpg" alt="Стол с морепродуктами"> -->
+
+						<picture>
+							<source media="(max-width: 490px)" srcset="images/content-1-w390.jpg">
+							<source media="(min-width: 491px)" srcset="images/content-1-w600.jpg">
+							<img src="images/content-1-w600.jpg" alt="Стол с морепродуктами">
+						</picture>
 					</div>
 
 					<div class="seafood__item seafood__item-right">
@@ -509,11 +515,17 @@
 							является экологически безопасным и ответственным, оставляя минимальный след на окружающую среду.</p>
 						</div>
 
-						<img class="seafood__item-img" srcset="images/content-3-w540.jpg 540w,
+<!-- 						<img class="seafood__item-img" srcset="images/content-3-w540.jpg 540w,
 						             images/content-3-w600.jpg 600w"
 						      sizes="(max-width: 1000px) 540px,
 						      600px"
-						  src="images/content-3-w600.jpg" alt="Краб">
+						  src="images/content-3-w600.jpg" alt="Краб"> -->
+
+						<picture>
+							<source media="(max-width: 490px)" srcset="images/content-3-w540.jpg">
+							<source media="(min-width: 491px)" srcset="images/content-3-w600.jpg">
+							<img src="images/content-3-w600.jpg" alt="Краб">
+						</picture>
 					</div>
 				</div>
 
