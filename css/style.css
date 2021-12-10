@@ -30,7 +30,6 @@ body {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 20px;
-	/*margin: 11px 43px 0 16px;*/
 }
 
 .logo {
@@ -187,6 +186,7 @@ body {
 	padding: 14px 88px;
 	transform: translate(112px, -100px);
 	transition: all .5s;
+	position: absolute;
 }
 
 .header__content-btn:focus, .header__content-btn:hover, .header__content-btn:active {
