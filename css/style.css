@@ -595,7 +595,6 @@ body {
 
 	.product__name-item.slick-current {
 		font-size: 30px;
-		line-height: 30px;
 	}
 
 	.seafood-box {
@@ -647,6 +646,10 @@ body {
 }
 
 @media(max-width: 650px) {
+	.product__name-item.slick-current {
+		font-size: 24px;
+	}
+
 	.contacts {
 		background-image: none;
 	}
