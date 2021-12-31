@@ -719,6 +719,10 @@ body {
 		height: 15px;
 	}
 
+	.product__content-img {
+		margin: 0 auto;
+	}
+
 	.seafood-box {
 		display: none;
 	}
